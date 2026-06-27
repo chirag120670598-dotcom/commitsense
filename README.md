@@ -48,7 +48,7 @@ ollama pull llama3
 
 ### 2. Install CommitSense
 ```bash
-git clone https://github.com/<chirag120670598-dotcom/commitsense.git
+git clone https://github.com/chirag120670598-dotcom/commitsense.git
 cd commitsense
 pip install -e .
 ```
