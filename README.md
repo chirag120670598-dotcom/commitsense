@@ -1,10 +1,8 @@
-# commitsense
-Stop writing commit messages by hand. CommitSense uses local Ollama AI to turn any git diff into a Conventional Commit + PR description in seconds. 100% offline (your code never leaves your machine). Free, MIT, pip-installable. 13 flags, disk cache, smart truncation, git hook installer, 60+ tests.
 # 🧠 CommitSense
 
 > AI-powered Conventional Commit messages using **local Ollama** — no cloud, no leaks, no API keys.
 
-[![CI](https://github.com/<your-username>/commitsense/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/commitsense/actions/workflows/ci.yml)
+[![CI](https://github.com/chirag120670598-dotcom/commitsense/actions/workflows/ci.yml/badge.svg)](https://github.com/chirag120670598-dotcom/commitsense/actions/workflows/ci.yml)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Ollama](https://img.shields.io/badge/powered%20by-Ollama-black)](https://ollama.com)
@@ -50,14 +48,14 @@ ollama pull llama3
 
 ### 2. Install CommitSense
 ```bash
-git clone https://github.com/<your-username>/commitsense.git
+git clone https://github.com/<chirag120670598-dotcom/commitsense.git
 cd commitsense
 pip install -e .
 ```
 
 Or directly:
 ```bash
-pip install git+https://github.com/<your-username>/commitsense.git
+pip install git+https://github.com/chirag120670598-dotcom/commitsense.git
 ```
 
 Now `commitsense` is on your `PATH` from any directory.
@@ -207,7 +205,7 @@ $ echo $?
 ## 🧑‍💻 Development
 
 ```bash
-git clone https://github.com/<your-username>/commitsense.git
+git clone https://github.com/chirag120670598-dotcom/commitsense.git
 cd commitsense
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev,test]"
